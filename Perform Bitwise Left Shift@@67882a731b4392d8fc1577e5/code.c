@@ -2,6 +2,6 @@
 int main(){
     int a,b,r;
     scanf("%d %d",&a,&b);
-    r = a << r;
+    r = a << b;
     printf("%d",r);
 }
