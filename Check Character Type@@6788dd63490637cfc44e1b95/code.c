@@ -12,9 +12,10 @@ int main(){
         printf("Digit");
     }
     else if(!vowels,ch){
-        printf("Vowel");
+        printf("consonant");
     }
     else{
         printf("Special Character");
     }
+    return 0;
 }
