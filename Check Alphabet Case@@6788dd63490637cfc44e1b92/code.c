@@ -7,7 +7,7 @@ int main(){
     if(isupper(a)){
         printf("Uppercase");
     }
-    else if(a==int){
+    else if(!isalpha(a)){
         printf("Not an alphabet");
     }
     else{
