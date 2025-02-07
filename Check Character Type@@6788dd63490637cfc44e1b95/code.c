@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char a;
-    char vowels[]="aeiouAEIOU"
+    char vowels[]="aeiouAEIOU";
     scanf("%c",&c);
     if(strchr(vowels,c)){
         printf("Vowel");
