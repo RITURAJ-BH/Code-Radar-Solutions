@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    int a;
+    int b;
     scanf("%d\t",&a);
     scanf("%d\t"&b);
     if(a>b){
