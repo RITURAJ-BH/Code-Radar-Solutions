@@ -8,10 +8,10 @@ int main(){
     if(strchr(vowels,c)){
         printf("Vowel");
     }
-    else if(isdigit(a)){
+    else if(isdigit(c)){
         printf("Digit");
     }
-    else if(!vowels,ch){
+    else if(!vowels,c){
         printf("consonant");
     }
     else{
