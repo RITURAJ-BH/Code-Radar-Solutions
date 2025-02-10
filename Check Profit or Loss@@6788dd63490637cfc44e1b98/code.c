@@ -8,7 +8,7 @@ if(a>b){
     printf("Loss");
 }
 else if(a==b){
-    printf("NO PROFIT NO LOSS");
+    printf("No Profit No Loss");
 }
 else{
     printf("Profit");
