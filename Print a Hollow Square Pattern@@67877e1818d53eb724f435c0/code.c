@@ -1,18 +1,19 @@
 #include <stdio.h>
-int main(){
-    int i,j,k;
-    scanf("%d",&k);
-    for(i=0;i<k;i++){
-        for(j=0;j<k;j++){
-             if (i == 1 || i == k || j == 1 || j == k) {
-                printf("* ");
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    for (int i = 0; i < n; i++) {  
+        for (int j = 0; j < n; j++) {  
+            if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+                printf("*");
             } else {
-                printf("  "); 
+                printf(" ");
             }
         }
-        for(int space;space<k;space++){
-            printf(" ");
-        }
-    printf("\n");
+        printf("\n");
     }
+
+    return 0;
 }
