@@ -7,14 +7,8 @@ int main(){
             printf(" ");
         }
         for(z=0;z<i+2;z++){
-         if(z==0){
             printf("*");
-         }
-         else{
-            printf("*");
-         }
         }
-        
     printf("\n");
-    }
-}
+    
+}}
