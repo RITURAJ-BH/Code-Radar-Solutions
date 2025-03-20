@@ -2,11 +2,14 @@
 int main(){
     int i,j,k;
     scanf("%d",&k);
-    for(j=(k-1);j<k;j++){
+    for(i=1;i<=k;i++){
+        for(j=(4*i-i);j<k;j++){
             printf(" ");
         }
-           for(int z=(i+1);z<=k;z++){
+        for(int z=i;z<k;z++){
             printf("*");
-        printf("\n");
         }
+        printf("\n");
     }
+
+}
