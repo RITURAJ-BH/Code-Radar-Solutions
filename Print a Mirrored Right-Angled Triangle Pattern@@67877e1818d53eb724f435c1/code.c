@@ -9,5 +9,6 @@ int main(){
         for(int z=(i+1);z<=k;z++){
             printf("*");
         }
+        printf("\n");
     }
 }
