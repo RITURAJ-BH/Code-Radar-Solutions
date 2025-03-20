@@ -6,10 +6,10 @@ int main(){
         for(j=k-i;j<=1;j--){
             printf(" ");
         }
-        for(j=1;j<=i;j++){
-            printf("*");
-        }
-        printf("\n");
+        // for(j=1;j<=i;j++){
+        //     printf("*");
+        // }
+        // printf("\n");
     }
 return 0;
 }
