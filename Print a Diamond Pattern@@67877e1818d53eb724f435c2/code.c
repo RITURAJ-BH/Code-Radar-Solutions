@@ -9,11 +9,11 @@ int main(){
         for(int z=0;z<(i*2+1);z++){
             printf("*");
         }
-        for(i=0;i<k;i++){
-        for(j=(k-1);j<(k-i-1);j--){
+        for(int x=0;x<k;x++){
+        for(int y=(k-1);y<(k-i-1);y--){
             printf(" ");
         }
-        for(int z=0;z<(i*2+1);z++){
+        for(int c=0;c<(x*2+1);x++){
             printf("*");
         }
         printf("\n");
