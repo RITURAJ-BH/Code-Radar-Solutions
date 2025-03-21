@@ -9,14 +9,6 @@ int main(){
         for(int z=0;z<(i*2+1);z++){
             printf("*");
         }
-        for(int x=0;x<k;x++){
-        for(int y=(k-1);y<(k-i-1);y--){
-            printf(" ");
-        }
-        for(int c=0;c<(x*2+1);c++){
-            printf("*");
-        }
         printf("\n");
     }
-}
 }
