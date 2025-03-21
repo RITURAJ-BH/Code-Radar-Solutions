@@ -19,7 +19,7 @@ int main(){
         for(int  z=0;z<(i*2+1);z++){
             printf("*");
         }
-        printf("\n";)
+        printf("\n");
 }
 
 }
