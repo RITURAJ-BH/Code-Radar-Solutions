@@ -9,9 +9,12 @@ int main(){
         k=k+2;
     }
     for(i=0;i<k;i++){
-        for(j=0;j<=k;j++){
-            printf("*");
-        }
-        printf("\n");
+       for(j=k-1;j>0;j--){
+        printf(" ")''
+       }
+       for(int z=i+1;z<k;z++){
+        printf("*");
+       }
+       printf("\n");
     }
 }
