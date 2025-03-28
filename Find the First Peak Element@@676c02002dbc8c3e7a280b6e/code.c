@@ -10,11 +10,11 @@ int main(){
             return 0;
           
         }
-        else if(arr[n]>arr[n-1]){
+        
+    }
+    if(arr[n-1]>arr[n-2]){
             printf("%d",arr[n]);
               return 0;
         }
-    }
-    
     printf("-1");
 }
