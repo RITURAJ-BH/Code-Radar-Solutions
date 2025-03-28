@@ -4,10 +4,8 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)scanf("%d ",&arr[i]);
-    for(int i=0;i<n;i++){
         if(arr[i]>arr[n-i]){
             printf("Sorted");
         }
         else{printf("Not Sorted");}
     }
-}
