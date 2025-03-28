@@ -5,7 +5,7 @@ int main(){
     int even = 0,odd = 0;
     int arr[num];
     for(int i=0;i<num;i++)scanf("%d",&arr[i]);
-    for(int i=0;i<num-1;i++){
+    for(int i=0;i<num;i++){
         if(arr[i]%2==0){
             even++;
         }
