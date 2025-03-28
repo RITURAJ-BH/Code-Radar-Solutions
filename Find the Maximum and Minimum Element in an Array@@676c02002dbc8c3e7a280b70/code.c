@@ -7,12 +7,12 @@ int main(){
         int min=arr[0];
         int max=arr[n-1];
     for(int i=0;i<n;i++){
-        if(min<arr[i+1]){
-            min=arr[i+1];
+        if(min>arr[i]){
+            min=arr[i];
           
         }
-        if(max<arr[i+1]){
-            max=arr[i+1];
+        if(max<arr[i]){
+            max=arr[i];
             return 0;
         }
     }
