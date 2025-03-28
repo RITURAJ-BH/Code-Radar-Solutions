@@ -5,6 +5,7 @@ int main(){
     int arr[N];
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     int rotate;
+    rotate=rotate%N;
     scanf("%d",&rotate);
     for(int i=(N-rotate);i<N;i++){
         printf("%d\n",arr[i]);
