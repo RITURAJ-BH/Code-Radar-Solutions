@@ -6,10 +6,10 @@ int main(){
     for(int i=0;i<N;i++)scanf("%d",&arr[i]);
     int rotate;
     scanf("%d",&rotate);
-    for(i=(N-rotate);i<n;i++){
+    for(int i=(N-rotate);i<n;i++){
         printf(arr[i]);
     }
-    for(i=0;i<rotate-i;i++){
+    for(int i=0;i<rotate-i;i++){
         printf(arr[i]);
     }
 }
