@@ -6,10 +6,10 @@ int main(){
     int arr[num];
     for(int i=0;i<num;i++)scanf("%d",&arr[i]);
     for(int i=0;i<num-1;i++){
-        if(arr[i]/2==0){
-            even=+1;
+        if(arr[i]%2==0){
+            even++;
         }
-        else {odd=+1;}
+        else {odd++;}
     }
     printf("%d %d",even,odd);
     return 0;
