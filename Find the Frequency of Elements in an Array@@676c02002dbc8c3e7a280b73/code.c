@@ -15,12 +15,12 @@ int main(){
                 fre[j]=0;}
             }
         }
-    
     fre[i]=count;}
     for(int i=0;i<num;i++){
-        if(fre[i]!=0){
-            printf("%d %d\n",arr[i],fre[i]);
-        }
+        // if(fre[i]!=0){
+        //     printf("%d %d\n",arr[i],fre[i]);
+        // }
+        printf("%d ",fre[i]);
     }
     return 0;
 }
