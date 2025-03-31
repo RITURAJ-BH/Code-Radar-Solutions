@@ -1,4 +1,4 @@
-#inlcude <stdio.h>
+#include <stdio.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -7,7 +7,6 @@ int main(){
     int rotate;
     rotate=rotate%n;
     scanf("%d",&rotate);
-   
     for(int i=0;i<rotate-n;i++){
         printf("%d",arr[i]);
     }
