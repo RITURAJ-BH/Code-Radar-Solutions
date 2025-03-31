@@ -11,10 +11,10 @@ int main(){
         if(fre[i] == -1){
             count=1;
             for( int j=i+1;j<num;j++){
-                count++
-                fre[j]=0;
+                count++;
+                fre[int j]=0;
             }
         }
     }
-    fre[i]=count;
+    fre[int i]=count;
 }
