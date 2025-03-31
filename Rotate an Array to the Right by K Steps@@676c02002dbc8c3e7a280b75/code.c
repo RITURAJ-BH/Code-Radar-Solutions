@@ -10,5 +10,8 @@ int main(){
     for(int i=k-num;i<num;i++){
         printf("%d ",arr[i]);
     }
- 
+    for(int i=0;i<k;i++){
+        printf("%d",arr[i]);
+    }
+    return 0;
 }
