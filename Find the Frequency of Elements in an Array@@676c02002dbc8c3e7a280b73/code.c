@@ -11,10 +11,16 @@ int main(){
         if(fre[i] == -1){
             count=1;
             for( int j=i+1;j<num;j++){
-               if(arr[i]=arr[j]){ count++;
+               if(arr[i]==arr[j]){ count++;
                 fre[j]=0;}
             }
         }
+    
+    fre[i]=count;}
+    for(int i=0;i<num;i++){
+        if(fre[i]!=0){
+            printf("%d %d",arr[i],fre[i]);
+        }
     }
-    arr[i]=count;
+    return 0;
 }
