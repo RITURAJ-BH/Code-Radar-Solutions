@@ -8,7 +8,7 @@ int main(){
     int sec=arr[0];
     for(int i=0;i<num;i++){
         if(max<arr[i]){
-            sec=max
+            sec=max;
             max=arr[i];
         }else if(arr[i]>sec && arr[i]<max){
             sec=arr[i];
