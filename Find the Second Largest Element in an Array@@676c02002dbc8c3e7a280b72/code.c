@@ -4,6 +4,7 @@ int main(){
     scanf("%d",&num);
     int arr[num];
     for(int i=0;i<num;i++)scanf("%d",&arr[i]);
+    if(num==1){printf("-1");return 0;}
     int max=arr[0];
     int sec=arr[1];
     if(arr[1]>arr[0]){
