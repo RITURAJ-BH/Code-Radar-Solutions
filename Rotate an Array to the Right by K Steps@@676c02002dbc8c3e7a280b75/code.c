@@ -7,6 +7,7 @@ int main(){
     int rotate;
     scanf("%d",&rotate);
      rotate=rotate%N;
+     printf("%d",rotate)
     for(int i=(N-rotate);i<N;i++){
         printf("%d ",arr[i]);
     }
