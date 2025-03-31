@@ -13,6 +13,9 @@ int main(){
         }else if(arr[i]>sec && arr[i]<max){
             sec=arr[i];
         }
+        else{
+            printf("-1");
+        }
     }
     printf("%d",sec);
 }
