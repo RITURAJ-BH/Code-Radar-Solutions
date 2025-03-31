@@ -5,7 +5,7 @@ int main(){
     int arr[num];
     for(int i=0;i<num;i++)scanf("%d",&arr[i]);
     int max=arr[0];
-    int sec=arr[0];
+    int sec=-1;
     for(int i=0;i<num;i++){
         if(max<arr[i]){
             sec=max;
