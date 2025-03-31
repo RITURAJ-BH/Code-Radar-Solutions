@@ -8,9 +8,9 @@ int main(){
     rotate=rotate%n;
     scanf("%d",&rotate);
     for(int i=(rotate-n);i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
     for(int i=0;i<(rotate-n);i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
