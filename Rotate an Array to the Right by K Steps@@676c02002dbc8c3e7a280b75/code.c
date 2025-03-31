@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
-    int arr[num];
-    for(int i=0;i<num;i++)scanf("%d",&arr[num]);
-    int k;
-    scanf("%d",&k);
-    k=k%num;
-    for(int i=k-num;i<num;i++){
-        printf("%d ",arr[i]);
+    int N;
+    scanf("%d",&N);
+    int arr[N];
+    for(int i=0;i<N;i++)scanf("%d",&arr[i]);
+    int rotate;
+    scanf("%d",&rotate);
+     rotate=rotate%N;
+    for(int i=(N-rotate);i<N;i++){
+        printf("%d\n",arr[i]);
     }
-    for(int i=0;i<k;i++){
-        printf("%d",arr[i]);
+    for(int i=0;i<N-rotate;i++){
+        printf("%d\n",arr[i]);
     }
-    return 0;
 }
