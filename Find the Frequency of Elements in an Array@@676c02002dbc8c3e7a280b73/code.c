@@ -16,5 +16,5 @@ int main(){
             }
         }
     }
-    fre[i]=count;
+    arr[i]=count;
 }
