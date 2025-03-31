@@ -12,7 +12,7 @@ int main(){
             count=1;
             for( int j=i+1;j<num;j++){
                if(arr[i]=arr[j]){ count++;
-                fre[j]=0;
+                fre[j]=0;}
             }
         }
     }
