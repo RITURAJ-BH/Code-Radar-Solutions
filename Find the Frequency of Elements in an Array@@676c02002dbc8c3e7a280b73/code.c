@@ -12,9 +12,9 @@ int main(){
             count=1;
             for( int j=i+1;j<num;j++){
                 count++;
-                fre[int j]=0;
+                fre[j]=0;
             }
         }
     }
-    fre[int i]=count;
+    fre[i]=count;
 }
