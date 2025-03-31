@@ -4,8 +4,12 @@ int main(){
     scanf("%d",&num);
     int arr[num];
     for(int i=0;i<num;i++)scanf("%d",&arr[i]);
-    int max=arr[1];
-    int sec=-1;
+    int max=arr[0];
+    int sec=arr[1];
+    if(arr[1]>arr[0]){
+        max=arr[1];sec=arr[0];
+    }
+    else if(arr[0]==arr[1])sec=-1;
     for(int i=0;i<num;i++){
         if(max<arr[i]){
             sec=max;
