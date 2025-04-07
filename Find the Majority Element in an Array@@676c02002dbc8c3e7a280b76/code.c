@@ -15,7 +15,7 @@ int main(){
     
     }
      for(int i=0;i<a;i++){
-        if(index[i]!=-1){
+        if(arr[i]!=-1){
             printf("%d",index[i]);
         }
         else{
