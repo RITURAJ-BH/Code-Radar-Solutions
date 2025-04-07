@@ -12,8 +12,12 @@ int main(){
             }
         }
         arr[i]=count;
-           
+    
     }
-     printf("%d",arr[i]);
+     for(int i=0;i<a;i++){
+        if(index[i]!=-1){
+            printf("%d",arr[i]);
+        }
+     }
 
 }
