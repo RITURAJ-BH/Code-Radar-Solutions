@@ -12,6 +12,7 @@ int main(){
             }
         }
         arr[i]=count;
+            printf("%d",arr[i]);
     }
-    printf("%d",arr[i]);
+
 }
