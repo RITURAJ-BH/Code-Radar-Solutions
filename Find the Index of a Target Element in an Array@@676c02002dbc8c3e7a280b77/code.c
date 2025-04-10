@@ -15,7 +15,7 @@ int main() {
     int found = 0;
     for (int i = 0; i < a; i++) {
         if (arr[i] == number) {
-            printf("Index: %d\n", i);  // print index where number is found
+            printf("%d\n", i);  // print index where number is found
             found = 1;
             break;
         }
