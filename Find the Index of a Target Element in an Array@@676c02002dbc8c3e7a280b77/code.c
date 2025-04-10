@@ -22,7 +22,7 @@ int main() {
     }
 
     if (!found) {
-        printf("Element not found\n");
+        printf("-1");
     }
 
     return 0;
