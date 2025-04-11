@@ -17,7 +17,7 @@ void sort(int arr[],int n){
         for(int i=0;i<n;i++){
             if(arr[i]==arr[i-1])continue;
             else if(arr[i]==arr[i-1]+1)maxlen++;
-            else countlen=1;
+            else countlen=0;
             if(countlen>maxlen)maxlen=countlen;
         }
         return maxlen;
