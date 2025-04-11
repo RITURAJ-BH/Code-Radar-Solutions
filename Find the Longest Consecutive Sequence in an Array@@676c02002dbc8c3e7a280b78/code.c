@@ -14,10 +14,10 @@ void sort(int arr[],int n){
         if(n==0)return 0;
         sort(arr,n);
         int maxlen=1,countlen=1;
-        for(int i=0;i<n;i++){
+        for(int i=1;i<n;i++){
             if(arr[i]==arr[i-1])continue;
             else if(arr[i]==arr[i-1]+1)maxlen++;
-            else countlen=0;
+            else countlen=1;
             if(countlen>maxlen)maxlen=countlen;
         }
         return maxlen;
