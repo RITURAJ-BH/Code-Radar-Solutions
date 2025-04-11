@@ -9,6 +9,7 @@ void sort(int arr[],int n){
             }
         }
     }
+}
     int longest(int arr[],int n){
         if(n==0)return 0;
         sort(arr,n);
@@ -21,6 +22,7 @@ void sort(int arr[],int n){
         }
         return maxlen;
     }
+    
     int main(){
         int n;
         scanf("%d",&n);
@@ -28,4 +30,3 @@ void sort(int arr[],int n){
         for(int i=0;i<n;i++)scanf("%d",&arr[i]);
         printf("%d",longest(arr,n));
     }
-}
